@@ -1,0 +1,46 @@
+[versions]
+agp = "8.6.0"
+android = "2.12.7"
+cameraCamera2 = "1.2.0"
+faceDetection = "16.1.7"
+fragment = "1.8.5"
+kotlin = "1.9.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+cameraCore = "1.4.0"
+playServicesLocation = "21.3.0"
+v2All = "2.20.6"
+uiGraphicsAndroid = "1.7.5"
+
+[libraries]
+android = { module = "com.kakao.maps.open:android", version.ref = "android" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCamera2" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraCamera2" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment = { module = "androidx.fragment:fragment", version.ref = "fragment" }
+face-detection = { module = "com.google.mlkit:face-detection", version.ref = "faceDetection" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraCore" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+v2-all = { module = "com.kakao.sdk:v2-all", version.ref = "v2All" }
+v2-cert = { module = "com.kakao.sdk:v2-cert", version.ref = "v2All" }
+v2-friend = { module = "com.kakao.sdk:v2-friend", version.ref = "v2All" }
+v2-navi = { module = "com.kakao.sdk:v2-navi", version.ref = "v2All" }
+v2-share = { module = "com.kakao.sdk:v2-share", version.ref = "v2All" }
+v2-talk = { module = "com.kakao.sdk:v2-talk", version.ref = "v2All" }
+v2-user = { module = "com.kakao.sdk:v2-user", version.ref = "v2All" }
+androidx-ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "uiGraphicsAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

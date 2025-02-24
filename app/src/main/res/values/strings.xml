@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrowsyDrive</string>
+    <string name="current_location">현재 위치</string>
+    <string name="request_guide">안내 요청</string>
+    <string name="notification_sentence">휴게소/졸음쉼터를 안내할까요?</string>
+    <string name="no">아니요</string>
+    <string name="drowsy_shelter">졸음 쉼터</string>
+    <string name="rest_area">휴게소</string>
+    <string name="map">지도</string>
+    <string name="menu">메뉴</string>
+</resources>
